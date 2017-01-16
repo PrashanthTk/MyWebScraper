@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ZomatoData
 
 A Scrapy project to scrape restaurant information from [Zomato](http://zomato.com/).
@@ -23,3 +24,6 @@ The scraped data can be found in `\data` and it contains three files `restaurant
 - `rating`: Average rating out of 5
 - `rating_votes`: Number of ratings
 - `reviews`: Number of reviews
+=======
+# MyWebScraper
+>>>>>>> 9c384b9f6d41a60608175e9c6cf7bde2846a09b6
