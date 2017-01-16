@@ -30,6 +30,8 @@ The scraped data can be found in `\data` and it contains three files `restaurant
 - `rating`: Average rating out of 5
 - `rating_votes`: Number of ratings
 - `reviews`: Number of reviews
+
+This code is the newer modified version of the scrapy code from https://github.com/mushimaster/ZomatoData. This cod eis obsolete as Zomato changed its web markup and hence the spider can't scrape well.
 =======
 # MyWebScraper
 >>>>>>> 9c384b9f6d41a60608175e9c6cf7bde2846a09b6
