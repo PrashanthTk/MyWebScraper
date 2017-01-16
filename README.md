@@ -1,11 +1,17 @@
 <<<<<<< HEAD
-# ZomatoData
+A web crawler to scrape data from New Delhi, Kolkata, Mumbai,
+Hyderabad, Chennai, Bangalore, Mysore using a scrapy project.
+How to run:
+1. Install scrapy
+2. Run "scrapy crawl -o stuff.json" on command line
+3. Stuff.json will contain json data of scraped stuff. The spider code is in /spiders/zomatospider.py. Uncomment the other cities' URLs in the start_urls list.
+4. Do json to csv conversion if required.
+Note:
+I have written code so that lat, lon, cities, reviews are scraped. We can scrape a lot more by modifying zomatospider.py.
 
-A Scrapy project to scrape restaurant information from [Zomato](http://zomato.com/).
-Currently only restaurant information from New Delhi, Kolkata, Mumbai,
-Hyderabad, Chennai, Bangalore, Mysore have been scraped. 
 
-## Data
+
+## Data ( I don't know why this is not happening)
 The scraped data can be found in `\data` and it contains three files `restaurants.csv`, `cuisines.csv`, `collections.csv`. Each restaurant in the dataset is uniquely identified by its `r_id`. `restaurants` contains the following variables:
 
 - `r_type`: Whether the listing is a casual dining restaurant, a fine-dining restaurant, a cafe etc.
